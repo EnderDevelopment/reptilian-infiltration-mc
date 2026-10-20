@@ -1,0 +1,16 @@
+name: CamouflagedReptilians
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A plugin that adds camouflaged reptilians among villagers.
+api-version: "1.21"
+commands:
+  reptilian:
+    description: Manage reptilian villagers.
+    usage: /reptilian <command>
+    permission: camouflagedreptilians.admin
+    permission-message: You do not have permission to use this command.
+permissions:
+  camouflagedreptilians.admin:
+    description: Allows administration of reptilian villagers.
+    default: op
